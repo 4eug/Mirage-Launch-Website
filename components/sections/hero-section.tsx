@@ -1,6 +1,8 @@
+'use client';
 import { Button } from '../button';
 import { Hero, HeroTitle, HeroSubtitle } from '../hero';
 import { Ico } from '../icons/ico';
+import TimerCard from '../timer-card';
 
 export const HomepageHero = () => (
   <>
@@ -22,6 +24,7 @@ export const HomepageHero = () => (
         <br />
         customisable components and styles
       </HeroSubtitle>
+      <TimerCard />
     </Hero>
   </>
 );
