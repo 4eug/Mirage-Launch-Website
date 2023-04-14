@@ -18,7 +18,9 @@ export const Header = () => {
           <div className="flex-grow  flex justify-center">
             <Button
               className="rounded-[15px] h-[46px] gap-[5px] w-[113px] font-bold flex items-center justify-center"
-              href="/"
+              href="https://www.figma.com/@mirageDS"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <FigmaIcon />
               Figma
@@ -27,8 +29,10 @@ export const Header = () => {
 
           <div className="ml-auto flex h-full items-center">
             <Button
-              className=" h-[46px] w-[113px] flex gap-[5px] font-bold items-center justify-center bg-primary600"
-              href="/"
+              className="h-[46px] w-[113px] flex gap-[5px] font-bold items-center justify-center bg-primary600"
+              href="https://github.com/Mirage-UI/mirage"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <GithubIcon />
               Github
