@@ -1,7 +1,7 @@
 export default function Head() {
   return (
     <>
-      <title>Mirage</title>
+      <title>Mirage - Design System for Developers & Designers </title>
       <meta
         name="description"
         content="Mirage Design System for Developers & Designers"
