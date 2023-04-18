@@ -5,6 +5,8 @@ specifiers:
   '@types/react': 18.0.33
   '@types/react-dom': 18.0.11
   autoprefixer: ^10.4.14
+  class-variance-authority: ^0.5.2
+  classnames: ^2.3.2
   eslint: 8.37.0
   eslint-config-next: 13.2.4
   next: 13.2.4
@@ -18,6 +20,8 @@ dependencies:
   '@types/node': 18.15.11
   '@types/react': 18.0.33
   '@types/react-dom': 18.0.11
+  class-variance-authority: 0.5.2_typescript@5.0.3
+  classnames: 2.3.2
   eslint: 8.37.0
   eslint-config-next: 13.2.4_vwh6htx42aidho2qgfca5u5rwm
   next: 13.2.4_biqbaboplfbrettd7655fr4n2y
@@ -578,6 +582,21 @@ packages:
     optionalDependencies:
       fsevents: 2.3.2
     dev: true
+
+  /class-variance-authority/0.5.2_typescript@5.0.3:
+    resolution: {integrity: sha512-j7Qqw3NPbs4IpO80gvdACWmVvHiLLo5MECacUBLnJG17CrLpWaQ7/4OaWX6P0IO1j2nvZ7AuSfBS/ImtEUZJGA==}
+    peerDependencies:
+      typescript: '>= 4.5.5 < 6'
+    peerDependenciesMeta:
+      typescript:
+        optional: true
+    dependencies:
+      typescript: 5.0.3
+    dev: false
+
+  /classnames/2.3.2:
+    resolution: {integrity: sha512-CSbhY4cFEJRe6/GQzIk5qXZ4Jeg5pcsP7b5peFSDpffpe1cqjASH/n9UTjBwOp6XpMSTwQ8Za2K5V02ueA7Tmw==}
+    dev: false
 
   /client-only/0.0.1:
     resolution: {integrity: sha512-IV3Ou0jSMzZrd3pZ48nLkT9DA7Ag1pnPzaiQhpW7c3RbcqqzvzzVu+L8gfqMp/8IM2MQtSiqaCxrrcfu8I8rMA==}
