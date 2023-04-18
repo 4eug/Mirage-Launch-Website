@@ -29,6 +29,9 @@ module.exports = {
         core80: '80px',
         core96: '96px',
       },
+      fontFamily: {
+        sans: ['Plus Jakarta Sans', 'sans-serif'],
+      },
       fontWeight: {},
       spacing: {},
       backgroundImage: {
