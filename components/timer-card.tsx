@@ -15,7 +15,7 @@ const TimerCard = () => {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      const countdownDate = new Date('2023-05-17T00:00:00').getTime();
+      const countdownDate = new Date('2023-06-20T00:00:00').getTime();
       const now = new Date().getTime();
       const timeDifference = countdownDate - now;
 
