@@ -70,6 +70,7 @@ const TimerCard = () => {
           </span>
         </div>
       </div>
+      <div className="mt-10 text-h5">To Lanuch</div>
     </section>
   );
 };
