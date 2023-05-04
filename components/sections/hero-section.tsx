@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 'use client';
 import { Button } from '../button';
 import { Hero, HeroTitle, HeroSubtitle } from '../hero';
@@ -52,7 +53,7 @@ export const HomepageHero = () => (
         Designers! */}
           </HeroTitle>
           <HeroSubtitle className="">
-            Elevate your designs with Mirages extensive library of
+            Elevate your designs with Mirage's extensive library of
             <br />
             customisable components and styles
           </HeroSubtitle>
