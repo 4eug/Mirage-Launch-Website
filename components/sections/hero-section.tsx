@@ -43,7 +43,7 @@ export const HomepageHero = () => (
             <Ico />
             <span>
               {' '}
-              Release 2023.06 |{' '}
+              Release 2023.11 |{' '}
               <span className="text-primary600">Coming Soon</span>
             </span>
           </Button>
